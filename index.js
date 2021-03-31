@@ -49,8 +49,8 @@ function startGame(){
     score = 0
     scoreText.textContent = score
     direction = 1
-    addApple()
     createSnake()
+    addApple()
     intervalTime = 1000
     timerId = setInterval(move, intervalTime) 
 }
