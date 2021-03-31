@@ -1,0 +1,71 @@
+body {
+    font-family: 'Righteous', cursive, sans-serif;
+    background-color: black;
+    margin: 0;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+h1{
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    width: 220px;
+    height: 220px;
+    border: grey solid 1px;
+    margin: 0 auto;
+    border-radius: 5px;
+
+  
+}
+
+#startButton{
+    padding: 20px;
+    margin: 40px auto;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    border: 1px grey solid;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#startButton:hover{
+    color: black;
+    background-color: white;
+}
+
+.square{
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    border: #969696 solid 1px;
+
+}
+
+
+
+.snake {
+    background-color:#5C7829;
+    border-radius: 5px;
+}
+
+.snakeHead {
+    background-color: #B7B327;
+    border-radius: 7px;
+}
+
+.apple {
+    background-image: linear-gradient(to right, #E52E2E, #993333);
+    border-radius: 5px;
+    border: #969696 solid 1px;
+}
+
+.wrapper{
+    margin: 0 auto;
+}
